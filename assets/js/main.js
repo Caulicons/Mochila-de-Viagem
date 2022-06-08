@@ -1,4 +1,5 @@
-import { triagemLi } from "./View/adicionando.js"
+import { triagemLi } from "./view/adicionando.js"
+import { mascaraNome} from "./view/mascara.js"
 
 document.querySelector('form').onsubmit = (event) => {
 
@@ -14,3 +15,8 @@ document.querySelector('form').onsubmit = (event) => {
     nome.focus()
     }
 } 
+
+document.querySelector('#nome')
+.addEventListener('input', input => {
+    input.target.value = mascaraNome(input.target.value)
+})

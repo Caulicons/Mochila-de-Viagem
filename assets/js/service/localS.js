@@ -1,4 +1,4 @@
-import { triagemLi } from "../View/adicionando.js"
+import { triagemLi } from "../view/adicionando.js"
 
 const bolsa = []
 

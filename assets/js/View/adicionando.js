@@ -1,4 +1,4 @@
-import { editandoLS, enviandoParaLS, removendoDoLS } from "../service/localStorage.js"
+import { editandoLS, enviandoParaLS, removendoDoLS } from "../service/localS.js"
 
 export function triagemLi(nome, quantidade) {
 
