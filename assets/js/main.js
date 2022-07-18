@@ -4,12 +4,12 @@ import verificandoLS from "./LocalStorage/verificandoLS.js";
 
 verificandoLS()
 
-document.querySelector('form').onsubmit = (event) => {
+document.querySelector('#cadastrar').onclick = (event) => {
 
     event.preventDefault();
     
-    const nome = event.target['nome']
-    const quantidade = event.target['quantidade']
+    const nome = document.querySelector('#nome')
+    const quantidade = document.querySelector('#quantidade')
 
     if(nome.value && quantidade.value){
     triagemLi(nome.value, quantidade.value)
