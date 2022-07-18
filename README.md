@@ -4,6 +4,8 @@ Pensando em viajar? Antes de qualquer coisa é sempre bom planejar antes e parte
 
 Caso queira altera a quantidade de algum objeto é só digitar o nome do objeto e o novo valor que será alterado a quantidade. 
 
+Caso queira da uma olhada rápida no projeto, só clicar [aqui](https://mochila-de-viagem-henna.vercel.app/).
+
 Esse projeto foi feita no decorrer dos cursos de "JavaScript na Web: armazenando dados no navegador
 " do professor [Pedro Marins](https://github.com/pedromarins).
 
