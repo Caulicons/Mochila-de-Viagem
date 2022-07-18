@@ -1,6 +1,6 @@
 import vendoSerJaExisteOItem from "./vendoSerJaExisteOItem.js"
 import CriandoLi from "./CriandoElementos/criandoLi.js"
-import enviandoParaLS from "../LocalStorage/enviandoParaLS.js"
+import enviandoParaLS from "../enviandoParaLS.js"
 
 export default function triagemLi(nome, quantidade) {
 

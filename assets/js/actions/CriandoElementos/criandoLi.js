@@ -1,4 +1,4 @@
-import removendoDoLS from "../../localStorage/removendoLS.js"
+import removendoDoLS from "../../removendoLS.js"
 import botãoDeletar from "./botaoDeletar.js"
 
 export default function criandoLi(nome, quantidade) {

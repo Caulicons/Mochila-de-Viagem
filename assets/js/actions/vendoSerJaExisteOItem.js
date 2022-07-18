@@ -1,4 +1,4 @@
-import  editandoLS  from "../localStorage/editandoLS.js"
+import  editandoLS  from "../editandoLS.js"
 
 export default function vendoSerJaExisteOItem(nome, quantidade) {
  
