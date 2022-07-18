@@ -1,4 +1,4 @@
-import vendoSerJaExisteOItem from "../logic/vendoSerJaExisteOItem.js"
+import vendoSerJaExisteOItem from "../Mochila/vendoSerJaExisteOItem.js"
 import CriandoLi from "./CriandoElementos/criandoItem.js"
 import enviandoParaLS from "../LocalStorage/enviandoParaLS.js"
 

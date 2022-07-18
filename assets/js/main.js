@@ -1,11 +1,11 @@
-import  triagemLi from "./view/triagemLi.js"
-import mascaraNomeInput from "./view/mascara.js"
+import  triagemLi from "./Mochila/triagemLi.js"
+import mascaraNomeInput from "./Mochila/mascara.js"
 import verificandoLS from "./LocalStorage/verificandoLS.js";
 
 verificandoLS()
 
 document.querySelector('#cadastrar').onclick = (event) => {
-
+    console.log(event)
     event.preventDefault();
     
     const nome = document.querySelector('#nome')
