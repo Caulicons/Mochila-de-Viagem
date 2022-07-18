@@ -1,6 +1,6 @@
 import  triagemLi from "./view/triagemLi.js"
 import mascaraNomeInput from "./view/mascara.js"
-import verificandoLS from "./service/verificandoLS.js";
+import verificandoLS from "./LocalStorage/verificandoLS.js";
 
 verificandoLS()
 

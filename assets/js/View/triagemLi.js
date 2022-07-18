@@ -1,6 +1,6 @@
 import vendoSerJaExisteOItem from "../logic/vendoSerJaExisteOItem.js"
 import CriandoLi from "./CriandoElementos/criandoItem.js"
-import enviandoParaLS from "../service/enviandoParaLS.js"
+import enviandoParaLS from "../LocalStorage/enviandoParaLS.js"
 
 export default function triagemLi(nome, quantidade) {
 
