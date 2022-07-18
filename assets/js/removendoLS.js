@@ -3,7 +3,6 @@ export default function removendoDoLS(li) {
    let tchau = li.replace(/(\d+X)/g, '')
  
    let bolsa = JSON.parse(localStorage.getItem('bolsa'))
-  console.log(tchau)
 
    bolsa.forEach((item, índice, bolsa) => {
  
