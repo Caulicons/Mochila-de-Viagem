@@ -1,7 +1,7 @@
-import removendoDoLS from "../../LocalStorage/removendoLS.js"
+import removendoDoLS from "../../localStorage/removendoLS.js"
 import botãoDeletar from "./botaoDeletar.js"
 
-export default function CriandoLi(nome, quantidade) {
+export default function criandoLi(nome, quantidade) {
 
     const lista = document.querySelector('#lista')
 

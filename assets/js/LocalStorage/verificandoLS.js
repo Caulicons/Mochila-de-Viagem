@@ -1,4 +1,5 @@
-import CriandoLi from "../Mochila/CriandoElementos/CriandoItem.js"
+import CriandoLi from "../actions/CriandoElementos/criandoLi.js"
+
 
 export default function verificandoLS() {
 

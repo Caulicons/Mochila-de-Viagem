@@ -1,4 +1,4 @@
-import removendoDoLS from "../../LocalStorage/removendoLS.js"
+import removendoDoLS from "../../localStorage/removendoLS.js"
 
 export default function botãoDeletar() {
 

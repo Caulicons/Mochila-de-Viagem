@@ -1,6 +1,6 @@
-import  triagemLi from "./Mochila/triagemLi.js"
-import mascaraNomeInput from "./Mochila/mascara.js"
-import verificandoLS from "./LocalStorage/verificandoLS.js";
+import  triagemLi from "./actions/triagemLi.js"
+import mascaraNomeInput from "./actions/mascara.js"
+import verificandoLS from "./localStorage/verificandoLS.js";
 
 verificandoLS()
 
