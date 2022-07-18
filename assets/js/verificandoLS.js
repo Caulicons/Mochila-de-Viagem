@@ -1,6 +1,6 @@
-import CriandoLi from "../actions/CriandoElementos/criandoLi.js"
+import CriandoLi from "./actions/CriandoElementos/criandoLi.js"
 
-export function verificandoLS() {
+export default function verificandoLS() {
 
   const bolsaLS = JSON.parse(localStorage.getItem('bolsa'))
   if (!bolsaLS) {localStorage.setItem('bolsa', '[]')}
